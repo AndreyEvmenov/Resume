@@ -1,4 +1,4 @@
 # Resume
 cv for course HTML &amp; CSS
 
-My cv is here [Duck Duck Go](https://andreyevmenov.github.io/Resume/).
+My cv is here [Click Here..](https://andreyevmenov.github.io/Resume/).
