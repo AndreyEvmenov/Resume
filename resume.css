@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    word-spacing: 10px;
+    color:  #15061f;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    word-spacing: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.name {
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    word-spacing: 10px;  
+    color: #15061f;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.skills {
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.nets {
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.nets h2 {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    word-spacing: 10px;  
+    color: #15061f;
+    padding-bottom: 10px;
+    padding-left: 0;     
+}
+
+.nets a {
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #f1f2f1;
+}
+
+.top {
+    display: flex;
+}
+
+@media (max-width: 650px) {
+
+    .top {
+        display: block;
+        text-align: center;
+    }
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+a {
+    color: #4B0082;
+    transition: all .2s;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.hobby {
+    background: #ecffea;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 15px 0;
+}
+
+.btn {
+    background: #2F4F4F;
+    padding: 10px 30px;
+    color: #c3c4ba;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.btn:hover {
+    color: #c3c4ba;
+    opacity: .8;
+}
+
+.list {
+    padding: 0px 40px 10px;
+}
+
+.list li:hover {
+    background: #c1cece;
+}
+
+.table {
+    margin: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.table td {
+    padding: 2px;
+}
+
+.table td:nth-child(odd) {
+    background: #bbc468;
+}
+
+.connect {
+    display: inline-block;
+    width: 48%;
+    padding-bottom: 10px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.inpt {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid darkgrey;
+    width: 98%;
+    font-weight: bold;
+    outline: none;
+    font-family: inherit;
+    /* padding-bottom: 10px; */
+}
+
+@media (max-width: 650px) {
+    .connect {
+        width: 100%;
+    }
+    .inpt {
+
+    }
+}
